@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
 let array = [];
@@ -69,6 +70,6 @@ while (condition) {
     }
 }
 console.log(chalk.blue(`\n.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.
-!! Thanks ${personName.Username} for Play this Game !!
+!! Thanks ${personName.Username} for Playing this Game !!
           
 .x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.`));
